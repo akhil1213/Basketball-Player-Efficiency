@@ -16,15 +16,23 @@ public class Player {
 	private double turnovers;
 	private double personalFouls;
 	private double pointsPerGame;
-	Player(	 String season,String age, String team, String league,String position,int gamesPlayed,int gamesStarted,double offensiveReboundsPerGame,
-	 double defensiveReboundsPerGame,
+	Player(
+	String season,
+	String age,
+	String team,
+	String league,
+	String position,
+	int gamesPlayed,
+	int gamesStarted,
+	double offensiveReboundsPerGame,
+	double defensiveReboundsPerGame,
 	double totalRebounds,
-	 double assistsPerGame,
-	 double steals,
-	 double blocks,
-	 double turnovers,
-	 double personalFouls,
-	 double pointsPerGame){
+	double assistsPerGame,
+	double steals,
+	double blocks,
+	double turnovers,
+	double personalFouls,
+	double pointsPerGame){
 		this.season = season;
 		this.age =age;
 		this.team = team;
